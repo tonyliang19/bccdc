@@ -1,4 +1,9 @@
 var_assign <- function(group_name, cnames0, Disease0) {
+  stopifnot(is.character(group_name),
+            is.character(cnames0),
+            length(cnames0) <= 1,
+            is.character(Disease0),
+            length(Disease0) < 19)
   if (group_name == "7yr"){
     group_sheet = "1. 7y_BCCDC"
     cnames = cnames0 # n = 25
