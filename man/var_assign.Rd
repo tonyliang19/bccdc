@@ -2,7 +2,7 @@
 % Please edit documentation in R/var_assign.R
 \name{var_assign}
 \alias{var_assign}
-\title{Title Select sheet, columns and diseases for Coverage&Reasons analysis}
+\title{Variable Assignment}
 \usage{
 var_assign(group_name, cnames0, Disease0)
 }
@@ -18,15 +18,20 @@ related to Coverage among all ages&grades in the dataset}
 }
 \value{
 A list of assigned variables in length of 4, including
+
 group_sheet, cnames, Disease_coverage and Disease_reason as per group
 
 group_sheet: String of the sheet name in the dataset to be analyzed
+
 cnames: Vector of the codable column names in selected sheet
+
 Disease_coverage: Vector of readable diseases&variants&notes to be listed in the Coverage file
+
 Disease_reason: Vector of readable diseases to be listed in the NonImmReason file
 }
 \description{
-Title Select sheet, columns and diseases for Coverage&Reasons analysis
+Select sheet, columns and diseases for Coverage & Reasons
+analysis per age/grade group
 }
 \examples{
 cols = c("antigen", "HSDA", "students", "refusal_all.n",
