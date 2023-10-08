@@ -1,10 +1,10 @@
 Package: bccdc
-Title: What the Package Does (One Line, Title Case)
+Title: Analyze Vaccine Coverage within PHSA 
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Jinghan", "Xu", , "jh0220x@gmail.com", role = c("aut", "cre"))
+Description: Convenience functions to make some common tasks with data clean,
+    manipulation and regular expressions a bit easier.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
