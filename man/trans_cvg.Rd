@@ -12,7 +12,7 @@ trans_cvg(group_name, grade_label = "", df = vch_df0)
 
 \item{grade_label}{String of grade in 2 digits converted from group_name}
 
-\item{df}{Original dataset}
+\item{df}{Original dataset; Defult value vch_df0 is the imported raw data}
 }
 \value{
 A list in length 9, including

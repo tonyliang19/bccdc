@@ -4,7 +4,7 @@
 #' @param group_name A string selected from c("7yr","6gr","7gr","8gr","9gr",
 #' "10gr","11gr","12gr")
 #' @param grade_label String of grade in 2 digits converted from group_name
-#' @param df Original dataset
+#' @param df Original dataset; Defult value vch_df0 is the imported raw data
 #'
 #' @return A list in length 9, including
 #'
