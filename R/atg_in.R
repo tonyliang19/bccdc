@@ -10,6 +10,7 @@
 #' @param grade_label String of grade in 2 digits converted from group_name
 #'
 #' @return Dataset with only correct antigen and HA / HSDA of target group
+#'
 #' @export
 #'
 #' @examples
