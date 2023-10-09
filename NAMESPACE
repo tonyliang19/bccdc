@@ -3,6 +3,7 @@
 export("%>%")
 export(atg_ex)
 export(atg_in)
+export(output_file)
 export(trans_cvg)
 export(var_assign)
 importFrom(magrittr,"%>%")
