@@ -34,7 +34,7 @@
 #' HSDA = c("Vancouver", "Richmond", "VCHA", "Richmond", "Vancouver",
 #' "VCHA", "VCHA", "Vancouver", "Richmond")
 #' )
-#' trans_cvg("7yr")
+#' trans_cvg("7yr", df = vch_df0)
 #'
 #' vch_df_g <- data.frame(
 #' grade = c("06","06","07","08", "09", "10", "10", "11", "12"),
@@ -46,7 +46,11 @@
 #' trans_cvg("6gr", "06", vch_df_g)
 #'
 #'
-trans_cvg <- function(group_name, grade_label = "", df = vch_df0){
+trans_cvg <- function(group_name, grade_label = "", df){
+
+  stopifnot(is.data.frame(df),
+            is.character(group_name))
+
   HPV_dis = c("hpv_M", "hpv_F")
 
   if (group_name == "7yr"){

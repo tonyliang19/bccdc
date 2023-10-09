@@ -4,7 +4,7 @@
 \alias{trans_cvg}
 \title{Dataset Preparation}
 \usage{
-trans_cvg(group_name, grade_label = "", df = vch_df0)
+trans_cvg(group_name, grade_label = "", df)
 }
 \arguments{
 \item{group_name}{A string selected from c("7yr","6gr","7gr","8gr","9gr",
@@ -45,7 +45,7 @@ antigen = c("dtap", "dtap_p", "hpv_F", "hpv_M", "men", "hpv", "measle",
 HSDA = c("Vancouver", "Richmond", "VCHA", "Richmond", "Vancouver",
 "VCHA", "VCHA", "Vancouver", "Richmond")
 )
-trans_cvg("7yr")
+trans_cvg("7yr", df = vch_df0)
 
 vch_df_g <- data.frame(
 grade = c("06","06","07","08", "09", "10", "10", "11", "12"),
