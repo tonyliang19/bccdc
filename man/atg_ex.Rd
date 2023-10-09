@@ -15,7 +15,7 @@ atg_ex(df, HA = TRUE, atg_ex, group_name, grade_label = "")
 
 \item{group_name}{String of group name}
 
-\item{grade_label}{String of grade in 2 digit converted from group_name}
+\item{grade_label}{String of grade in 2 digits converted from group_name}
 }
 \value{
 Dataset with only correct antigen and HA / HSDA of target group

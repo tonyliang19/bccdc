@@ -7,7 +7,7 @@
 #' @param HA Boolean, indicating whether used for HA analysis or HSDA analysis
 #' @param atg_ex List of all excluded antigen in the original dataset
 #' @param group_name String of group name
-#' @param grade_label String of grade in 2 digit converted from group_name
+#' @param grade_label String of grade in 2 digits converted from group_name
 #'
 #' @return Dataset with only correct antigen and HA / HSDA of target group
 #'
