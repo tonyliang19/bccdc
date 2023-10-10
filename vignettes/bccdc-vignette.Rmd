@@ -1,8 +1,8 @@
 ---
-title: "bccdc-vignette"
+title: "R Package: bccdc"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{bccdc-vignette}
+  %\VignetteIndexEntry{R Package: bccdc}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -16,4 +16,72 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(bccdc)
+```
+
+This document contains detailed documentation and examples for the functions 
+which can be found in the bccdc package. In general, these function can be used 
+for bccdc vaccine coverage analysis sticking to the dataset that is in the same 
+format with the 2022's version. 
+
+The package includes the following 5 functions:
+
+* var_assign()
+* atg_in()
+* atg_ex()
+* trans_cvg()
+* output_file()
+
+## var_assign()
+The function `var_assign()` ...For example, given the following 
+grade_name:
+```{r var-assign-input}
+#...
+```
+
+```{r var-assign-example}
+#var_assign(...)
+```
+
+## atg_in()
+The function `atg_in()` ...For example, given the following 
+grade_name:
+```{r atg-in-input}
+#...
+```
+
+```{r atg-in-example}
+#var_assign(...)
+```
+
+## atg_ex()
+The function `atg_ex()` ...For example, given the following 
+grade_name:
+```{r atg-ex-input}
+#...
+```
+
+```{r atg-ex-example}
+#atg_ex(...)
+```
+
+## trans_cvg()
+The function `trans_cvg()` ...For example, given the following 
+grade_name:
+```{r trans-cvg-input}
+#...
+```
+
+```{r trans-cvg-example}
+#trans_cvg(...)
+```
+
+## output_file()
+The function `output_file()` ...For example, given the following 
+grade_name:
+```{r output-file-input}
+#...
+```
+
+```{r output-file-example}
+#output_file(...)
 ```
