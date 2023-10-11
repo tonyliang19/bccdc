@@ -6,6 +6,10 @@ Authors@R:
 Description: Convenience functions to make some common tasks with data clean,
     manipulation and regular expressions a bit easier.
 License: MIT + file LICENSE
+URL:
+    https://jh22d.github.io/bccdc/
+    https://github.com/jh22d/bccdc
+BugReports: https://github.com/jh22d/bccdc/issues/new
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2

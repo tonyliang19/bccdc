@@ -1,4 +1,15 @@
-url: ~
+url: https://jh22d.github.io/bccdc/
 template:
   bootstrap: 5
+  bootswatch: cosmo
+  bslib:
+    font_scale: 1.0
+    bg: "#fcfbf9"
+    fg: "#2c365e"
+    primary: "#2c365e"
+    secondary: "#e98a15"
+    link-color: "#e98a15"
+    info: "#0a8754"
 
+navbar:
+  bg: primary
