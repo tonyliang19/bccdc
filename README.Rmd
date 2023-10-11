@@ -26,11 +26,11 @@ library(knitr)
 
 This package contains the following functions:
 
-* var_assign()
-* atg_in()
-* atg_ex()
-* trans_cvg()
-* output_file()
+* `var_assign()`
+* `atg_in()`
+* `atg_ex()`
+* `trans_cvg()`
+* `output_file()`
 
 
 

@@ -14,11 +14,11 @@ coverage](https://codecov.io/gh/jh22d/bccdc/branch/main/graph/badge.svg)](https:
 
 This package contains the following functions:
 
-- var_assign()
-- atg_in()
-- atg_ex()
-- trans_cvg()
-- output_file()
+- `var_assign()`
+- `atg_in()`
+- `atg_ex()`
+- `trans_cvg()`
+- `output_file()`
 
 Instructions on the installation and how to load the package can be
 found in this README.md. If you are looking for more detailed examples
