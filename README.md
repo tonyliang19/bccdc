@@ -6,6 +6,10 @@
 <!-- badges: start -->
 <!-- [![codecov](https://codecov.io/gh/DSCI-310/dsci-310-group-10-GCC-pkg/branch/main/graph/badge.svg?token=gvCJoMd9mW)](https://codecov.io/gh/DSCI-310/dsci-310-group-10-GCC-pkg) -->
 <!-- [![R-CMD-check](https://github.com/DSCI-310/dsci-310-group-10-GCC-pkg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DSCI-310/dsci-310-group-10-GCC-pkg/actions/workflows/R-CMD-check.yaml) -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/jh22d/bccdc/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jh22d/bccdc?branch=main)
+[![R-CMD-check](https://github.com/jh22d/bccdc/workflows/R-CMD-check/badge.svg)](https://github.com/jh22d/bccdc/actions)
 <!-- badges: end -->
 
 This package contains the following functions:
